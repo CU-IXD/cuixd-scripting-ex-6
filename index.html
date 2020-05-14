@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Select and Traverse Practice</title>
+        <link rel="stylesheet" href="https://bootswatch.com/3/cerulean/bootstrap.css" />
+        <style>
+            thead th {
+                text-align: center;
+                font-size:1.6em;
+            }
+            tbody td { text-align: center; }
+            .panel-footer p { margin:0; }
+            .panel-footer p:first-of-type { margin:10px 0 0; }
+        </style>
+    </head>
+    <body class="container">
+        <h1>Heartland Wooden Sheds</h1>
+        <nav class="navbar navbar-default">
+            <ul class="nav navbar-nav">
+                <li class="stratford"><a href="#">Stratford</a></li>
+                <li class="statesman"><a href="#">Statesman</a></li>
+                <li class="gentry"><a href="#">Gentry</a></li>
+                <li class="metropolitan"><a href="#">Metropolitan</a></li>
+                <li class="active comparison"><a href="#">Comparison</a></li>
+            </ul>
+        </nav>
+        <h2>Comparison</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr class="seres">
+                    <th></th>
+                    <th class="stratford">Stratford <img src="http://images.lowes.com/product/converted/095317/095317182938sm.jpg" /></th>
+                    <th class="statesman">Statesman <img src="http://images.lowes.com/product/converted/095317/095317191305sm.jpg" /></th>
+                    <th class="gentry">Gentry <img src="http://images.lowes.com/product/converted/095317/095317191206sm.jpg" /></th>
+                    <th class="metropolitan">Metropolitan <img src="http://images.lowes.com/product/converted/095317/095317191794sm.jpg" /></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="price">
+                    <th>Price</th>
+                    <td class="stratford">$898.00</td>
+                    <td class="statesman">$1798.99</td>
+                    <td class="gentry">$1898.99</td>
+                    <td class="metropolitan">$1898.34</td>
+                </tr>
+                <tr class="item-number">
+                    <th>Item Number</th>
+                    <td class="stratford">437509</td>
+                    <td class="statesman">336049</td>
+                    <td class="gentry">336052</td>
+                    <td class="metropolitan">638509</td>
+                </tr>
+                <tr class="siding-type">
+                    <th>Siding Type</th>
+                    <td class="stratford">Engineered wood</td>
+                    <td class="statesman">Engineered wood</td>
+                    <td class="gentry">Engineered wood</td>
+                    <td class="metropolitan">Engineered wood</td>
+                </tr>
+                <tr class="style">
+                    <th>Style</th>
+                    <td class="stratford">Saltbox</td>
+                    <td class="statesman">Gable</td>
+                    <td class="gentry">Saltbox</td>
+                    <td class="metropolitan">Lean-to</td>
+                </tr>
+                <tr class="actual-exterior-width">
+                    <th>Actual Exterior Width (Feet)</th>
+                    <td class="stratford">12.06</td>
+                    <td class="statesman">11.13</td>
+                    <td class="gentry">12.22</td>
+                    <td class="metropolitan">8.6875</td>
+                </tr>
+                <tr class="actual-exterior-length">
+                    <th>Actual Exterior Length (Feet)</th>
+                    <td class="stratford">8.38</td>
+                    <td class="statesman">12.23</td>
+                    <td class="gentry">11.13</td>
+                    <td class="metropolitan">13.03</td>
+                </tr>
+                <tr class="actual-exterior-peak-height">
+                    <th>Actual Exterior Peak Height (Feet)</th>
+                    <td class="stratford">8.05</td>
+                    <td class="statesman">9.5</td>
+                    <td class="gentry">9.5</td>
+                    <td class="metropolitan">8.5625</td>
+                </tr>
+                <tr class="door-opening-width">
+                    <th>Door Opening Width (Inches)</th>
+                    <td class="stratford">64</td>
+                    <td class="statesman">64</td>
+                    <td class="gentry">64</td>
+                    <td class="metropolitan">64</td>
+                </tr>
+                <tr class="door-opening-height">
+                    <th>Door Opening Height (Inches)</th>
+                    <td class="stratford">71.25</td>
+                    <td class="statesman">71.25</td>
+                    <td class="gentry">71.25</td>
+                    <td class="metropolitan">72</td>
+                </tr>
+                <tr class="floor-included">
+                    <th>Floor Included</th>
+                    <td class="stratford">No</td>
+                    <td class="statesman">Yes</td>
+                    <td class="gentry">Yes</td>
+                    <td class="metropolitan">Yes</td>
+                </tr>
+                <tr class="floor-storage-capacity">
+                    <th>Floor Storage Capacity (Sq. Feet)</th>
+                    <td class="stratford">96</td>
+                    <td class="statesman">120</td>
+                    <td class="gentry">120</td>
+                    <td class="metropolitan">90</td>
+                </tr>
+                <tr class="storage-capacity">
+                    <th>Storage Capacity (Cu. Feet)</th>
+                    <td class="stratford">664</td>
+                    <td class="statesman">970</td>
+                    <td class="gentry">970</td>
+                    <td class="metropolitan">623</td>
+                </tr>
+                <tr class="installation-included">
+                    <th>Installation Included</th>
+                    <td class="stratford">No</td>
+                    <td class="statesman">No</td>
+                    <td class="gentry">No</td>
+                    <td class="metropolitan">No</td>
+                </tr>
+                <tr class="paintable">
+                    <th>Paintable</th>
+                    <td class="stratford">Yes</td>
+                    <td class="statesman">Yes</td>
+                    <td class="gentry">Yes</td>
+                    <td class="metropolitan">Yes</td>
+                </tr>
+                <tr class="primed">
+                    <th>Primed</th>
+                    <td class="stratford">Yes</td>
+                    <td class="statesman">Yes</td>
+                    <td class="gentry">Yes</td>
+                    <td class="metropolitan">Yes</td>
+                </tr>
+                <tr class="number-of-windows">
+                    <th>Number of Windows Included</th>
+                    <td class="stratford">1</td>
+                    <td class="statesman">1</td>
+                    <td class="gentry">1</td>
+                    <td class="metropolitan">5</td>
+                </tr>
+                <tr class="number-of-shelves">
+                    <th>Number of Shelves Included</th>
+                    <td class="stratford">2</td>
+                    <td class="statesman">2</td>
+                    <td class="gentry">1</td>
+                    <td class="metropolitan">0</td>
+                </tr>
+                <tr class="construction">
+                    <th>Construction</th>
+                    <td class="stratford">24-in on center</td>
+                    <td class="statesman">24-in on center</td>
+                    <td class="gentry">24-in on center</td>
+                    <td class="metropolitan">24-in on center</td>
+                </tr>
+                <tr class="warranty">
+                    <th>Warranty</th>
+                    <td class="stratford">10-year limited material</td>
+                    <td class="statesman">12-year limited material</td>
+                    <td class="gentry">12-year limited material</td>
+                    <td class="metropolitan">15-year limited material</td>
+                </tr>
+                <tr class="actual-interior-width">
+                    <th>Actual Interior Width (Feet)</th>
+                    <td class="stratford">11.71</td>
+                    <td class="statesman">10</td>
+                    <td class="gentry">12</td>
+                    <td class="metropolitan">7.5</td>
+                </tr>
+                <tr class="actual-interior length">
+                    <th>Actual Interior Length (Feet)</th>
+                    <td class="stratford">8</td>
+                    <td class="statesman">12</td>
+                    <td class="gentry">10</td>
+                    <td class="metropolitan">12</td>
+                </tr>
+                <tr class="actula-interior-peak-height">
+                    <th>Actual Interior Peak Height (Feet)</th>
+                    <td class="stratford">8</td>
+                    <td class="statesman">9.5</td>
+                    <td class="gentry">9.5</td>
+                    <td class="metropolitan">7.9166</td>
+                </tr>
+                <tr class="foundation-width">
+                    <th>Foundation Width (Feet)</th>
+                    <td class="stratford">11.71</td>
+                    <td class="statesman">10</td>
+                    <td class="gentry">12</td>
+                    <td class="metropolitan">7.5</td>
+                </tr>
+                <tr class="foundation-length">
+                    <th>Foundation Length (Feet)</th>
+                    <td class="stratford">8</td>
+                    <td class="statesman">12</td>
+                    <td class="gentry">10</td>
+                    <td class="metropolitan">12</td>
+                </tr>
+                <tr class="package-width">
+                    <th>Package Width (Inches)</th>
+                    <td class="stratford">48.5</td>
+                    <td class="statesman">48</td>
+                    <td class="gentry">48.5</td>
+                    <td class="metropolitan">48</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="comments">
+            <h2>Comments</h2>
+            <ul class="list-unstyled">
+                <li id="comment-1" class="panel panel-default">
+                    <div class="panel-body">
+                        <p class="comment">Stratford is a nice shed in most respects but it has one major but easily correctable flaw in its design. The shed is 8 ft deep by 12 ft wide. When building the floor, for appropriate strength you will need to buy 2 boards 2x4x12ft for the header joists (front and back of the base). The company supplies an 8 ft and a 4 ft board to cover that 12 ft span but that causes you to use a weak butt joint in the middle of the area of greatest load. Fortunately using a single 12 ft board instead cheaply fixes this problem.
+The rest of the shed is quite nice and the instructions are easy to follow. The shed is attractive and quite useful.</p>
+                    </div>
+                    <div class="panel-footer comment-info clearfix">
+                        <p class="username pull-left">By: BackyardDad</p>
+                        <p class="btn-group social-options pull-right">
+                            <a href="#" class="btn btn-default share">
+                                <span class="glyphicon glyphicon-share-alt" title="Share"></span>
+                            </a>
+                            <a href="#" class="btn btn-default like">
+                                <span class="glyphicon glyphicon-thumbs-up" title="Like"></span>
+                                <span class="badge">8</span>
+                            </a>
+                        </p>
+                    </div>
+                </li>
+                <li id="comment-2" class="panel panel-default">
+                    <div class="panel-body">
+                        <p class="comment">Had the Statesman for about a month now and I love it. It replaced my old 8x10 shed that I had outgrown. Paid extra to have it delivered and installed. That was worth every penny. It looks great and we finished painting it to match the house. Lowe's can't be beat when it comes to price and service. Looking forward to many years of use. Thank You Lowe's.</p>
+                    </div>
+                    <div class="panel-footer comment-info clearfix">
+                        <p class="username pull-left">By: WoodenBldr</p>
+                        <p class="btn-group social-options pull-right">
+                            <a href="#" class="btn btn-default share">
+                                <span class="glyphicon glyphicon-share-alt" title="Share"></span>
+                            </a>
+                            <a href="#" class="btn btn-default like">
+                                <span class="glyphicon glyphicon-thumbs-up" title="Like"></span>
+                                <span class="badge">5</span>
+                            </a>
+                        </p>
+                    </div>
+                </li>
+                <li id="comment-3" class="panel panel-default">
+                    <div class="panel-body">
+                        <p class="comment">The Heartland Gentry Shed was a fun project to build. It would be nice if Lowes would include an optional foundation kit. Maybe something that has the 4x4 posts, paving stones and gravel ready to go. That would be a nice option but for most people they can figure it out and also Heartland's website has tons of helpful videos. I managed to do this project almost entirely by myself. My neighbor helped me lift the front wall unit up into place but that was about it. My two young boys were always trying to help and there were small things that they were able to help with. I am attaching a time lapse video of the project. I still need to build a ramp so I can get my JohnDeere in there. Also going to paint the shed to match the house and probably but some decorative retaining wall around the front and sides for planing small bushes.</p>
+                    </div>
+                    <div class="panel-footer comment-info clearfix">
+                        <p class="username pull-left">By: ShedMaster</p>
+                        <p class="btn-group social-options pull-right">
+                            <a href="#" class="btn btn-default share">
+                                <span class="glyphicon glyphicon-share-alt" title="Share"></span>
+                            </a>
+                            <a href="#" class="btn btn-default like">
+                                <span class="glyphicon glyphicon-thumbs-up" title="Like"></span>
+                                <span class="badge">3</span>
+                            </a>
+                        </p>
+                    </div>
+                </li>
+                <li id="comment-4" class="panel panel-default">
+                    <div class="panel-body">
+                        <p class="comment">Built the Metropolitan shed myself. Some background in building/remodeling, so only a few surprises that took extra time b/c manual not too clear: 1) foundation was included but dimensions were off (ended up building my own foundation), 2) sort and label your parts first as not all peices labeled clearly and saves time later, 3) try to use true, non-warped wood for front facing wall (door and window side) to avoid poor fit later, 4) door handle a bit confusing.</p>
+                    </div>
+                    <div class="panel-footer comment-info clearfix">
+                        <p class="username pull-left">By: MrObvious</p>
+                        <p class="btn-group social-options pull-right">
+                            <a href="#" class="btn btn-default share">
+                                <span class="glyphicon glyphicon-share-alt" title="Share"></span>
+                            </a>
+                            <a href="#" class="btn btn-default like">
+                                <span class="glyphicon glyphicon-thumbs-up" title="Like"></span>
+                                <span class="badge">10</span>
+                            </a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        
+    </body>
+</html>
